@@ -1,0 +1,14 @@
+Clone the repository:
+
+git clone https://github.com/your-username/text to img 
+cd your-repo-name
+
+
+Create a virtual environment and install dependencies:
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install torch torchvision diffusers pillow tkinter
+
+
+Run the application:
+python main.py
