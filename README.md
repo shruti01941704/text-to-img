@@ -68,8 +68,6 @@ Test your changes to make sure they work as expected.
 Commit your changes and push them to your forked repository.
 Create a pull request on the original repository to submit your changes.
 
-![Uploading WhatsApp Image 2024-10-18 at 10.26.27_11dab0ef.jpg…]()
-We will review your pull request and provide feedback as needed. Thank you for contributing to this project!
 
 
 
