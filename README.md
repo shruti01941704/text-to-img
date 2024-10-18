@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-10-18 at 10 34 54_a8c97678](https://github.com/user-attachments/assets/dc350c76-9ccf-4906-8cbc-cbbad5dfd4c5)![image](https://github.com/user-attachments/assets/23e32031-4dee-4c01-a8fe-8a48cf08c28a)Clone the repository:
+Clone the repository:
 
 git clone https://github.com/your-username/text to img 
 cd your-repo-name
@@ -70,4 +70,5 @@ Create a pull request on the original repository to submit your changes.
 We will review your pull request and provide feedback as needed. Thank you for contributing to this project!
 
 
+![Uploading WhatsApp Image 2024-10-18 at 10.26.27_11dab0ef.jpg…]()
 
