@@ -1,4 +1,4 @@
-Clone the repository:
+![WhatsApp Image 2024-10-18 at 10 34 54_a8c97678](https://github.com/user-attachments/assets/dc350c76-9ccf-4906-8cbc-cbbad5dfd4c5)![image](https://github.com/user-attachments/assets/23e32031-4dee-4c01-a8fe-8a48cf08c28a)Clone the repository:
 
 git clone https://github.com/your-username/text to img 
 cd your-repo-name
@@ -62,8 +62,12 @@ We welcome contributions to this project! If you would like to contribute, pleas
 
 Fork this repository to your own GitHub account.
 Clone the forked repository to your local machine.
+
 Make changes to the code as needed.
 Test your changes to make sure they work as expected.
 Commit your changes and push them to your forked repository.
 Create a pull request on the original repository to submit your changes.
 We will review your pull request and provide feedback as needed. Thank you for contributing to this project!
+
+![Uploading WhatsApp Image 2024-10-18 at 10.34.54_14978643.jpg…]()
+
