@@ -69,5 +69,6 @@ Commit your changes and push them to your forked repository.
 Create a pull request on the original repository to submit your changes.
 
 
+![LINE PLAN](https://github.com/user-attachments/assets/babcf006-6ce1-4b02-bce3-fb8a5b0b4233)
 
 
