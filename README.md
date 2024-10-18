@@ -69,5 +69,5 @@ Commit your changes and push them to your forked repository.
 Create a pull request on the original repository to submit your changes.
 We will review your pull request and provide feedback as needed. Thank you for contributing to this project!
 
-![Uploading WhatsApp Image 2024-10-18 at 10.34.54_14978643.jpg…]()
+
 
