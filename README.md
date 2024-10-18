@@ -68,8 +68,12 @@ Test your changes to make sure they work as expected.
 Commit your changes and push them to your forked repository.
 Create a pull request on the original repository to submit your changes.
 
+For Buloding planning :
 
 ![LINE PLAN](https://github.com/user-attachments/assets/babcf006-6ce1-4b02-bce3-fb8a5b0b4233)
 
+
 ![rich img 1](https://github.com/user-attachments/assets/0b502b0c-9752-4e02-9dd2-9ecab1e82d2d)
+
+
 
