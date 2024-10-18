@@ -80,6 +80,7 @@ Prompt: A mystical castle floating in the sky.
 
 Original image
 
+![WhatsApp Image 2024-10-18 at 11 37 04_6d67f01a](https://github.com/user-attachments/assets/e284706f-03c6-4c29-9078-5ec04c06b210)
 
 
 Modified images
