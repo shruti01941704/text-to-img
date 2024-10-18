@@ -68,7 +68,8 @@ Test your changes to make sure they work as expected.
 Commit your changes and push them to your forked repository.
 Create a pull request on the original repository to submit your changes.
 
-For Buloding planning :
+
+Explore this stunning architectural layout that brings your dream home to life! This image intricately details each room's dimensions and flow, offering a clear vision for a beautifully functional living space
 
 ![LINE PLAN](https://github.com/user-attachments/assets/babcf006-6ce1-4b02-bce3-fb8a5b0b4233)
 
@@ -76,5 +77,7 @@ For Buloding planning :
 ![rich img 1](https://github.com/user-attachments/assets/0b502b0c-9752-4e02-9dd2-9ecab1e82d2d)
 
 ![WhatsApp Image 2024-10-18 at 11 09 46_9d78b560](https://github.com/user-attachments/assets/ec192d88-3a61-4876-a428-28f8af399a10)
+
+![WhatsApp Image 2024-10-18 at 11 19 40_1e1cf1fe](https://github.com/user-attachments/assets/e550fc10-d173-4921-a396-e8aa521639c7)
 
 
