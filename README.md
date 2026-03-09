@@ -1,73 +1,178 @@
-Clone the repository:
+Text2Image is a Python-based application that generates images from text prompts using Stable Diffusion.
+It provides a simple GUI where users can enter a description and the AI model will generate a corresponding image.
 
-git clone https://github.com/your-username/text to img 
-cd your-repo-name
+This project demonstrates the power of Generative AI and diffusion models to convert natural language descriptions into visual content.
 
+📑 Table of Contents
 
-Create a virtual environment and install dependencies:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install torch torchvision diffusers pillow tkinter
+Key Features
 
+Technology Stack
 
-Run the application:
-python main.py
+Project Structure
 
-This project uses the Stable Diffusion Pipeline to generate images from text prompts. The Stable Diffusion Pipeline is a machine learning model that uses a diffusion process to generate images from text prompts. This is a simple GUI application for generating images based on user prompts using the StableDiffusionPipeline model from the diffusers module. The application allows users to enter a prompt, click a button to generate an image based on the prompt, and view the generated image in the GUI window.
+Getting Started
 
-To get started, you will need to have a GPU and install the following dependencies:
+Prerequisites
 
-PyTorch
-diffusers
+Installation
 
-Before running this application, you will need to have the following installed:
+Running the Application
 
-Python 3.6 or later
-tkinter module
-customtkinter module
-diffusers module
-torch module
-Pillow module
-
-You can install these dependencies using pip. For example:
-
-pip install tkinter
-pip install customtkinter
-pip install diffusers
-pip install torch
-pip install Pillow
-
-To run this file you need a HuggingFace API Token.
-
-Go to the Hugging Face website: https://huggingface.co/
-Click on the "Sign In" button in the top-right corner of the page.
-Sign in with your Hugging Face account or create a new account if you don't have one.
-Once you are signed in, click on your profile picture in the top-right corner of the page and select "Account settings" from the dropdown menu.
-On the account settings page, click on the "API token" tab.
-Click on the "Generate new token" button to create a new authorization token.
-Enter a name for your token in the "Token name" field (e.g. "Image Generator App").
-Choose the permissions you want to grant to your token (e.g. "Read-only" or "Full access").
-Click on the "Generate" button to create your token.
-Copy the generated token and use it in your Python code where it says self.authorization_token = "".
-Once you have installed the dependencies, you can run the code by running the following command:
-
-python imagegenerator.py
 Usage
-When you run the code, you will be prompted to enter a text prompt. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The generated image will be displayed using matplotlib.
-
-image
 
 Contributing
-We welcome contributions to this project! If you would like to contribute, please follow these steps:
 
-Fork this repository to your own GitHub account.
-Clone the forked repository to your local machine.
+🚀 Key Features
 
-Make changes to the code as needed.
-Test your changes to make sure they work as expected.
-Commit your changes and push them to your forked repository.
-Create a pull request on the original repository to submit your changes.
+Text-to-Image Generation
+Generate high-quality images from natural language prompts.
 
+Stable Diffusion Integration
+Uses the powerful Stable Diffusion model through the Diffusers library.
+
+Simple GUI Interface
+Built using Tkinter / CustomTkinter for easy user interaction.
+
+Fast Image Generation
+Utilizes PyTorch GPU acceleration when available.
+
+Prompt-Based Control
+Users can customize images by entering different descriptive prompts.
+
+Real-time Image Display
+Generated images are displayed instantly inside the GUI window.
+
+🛠️ Technology Stack
+Programming Language
+
+Python
+
+AI / Machine Learning
+
+Stable Diffusion
+
+PyTorch
+
+Diffusers (Hugging Face)
+
+GUI
+
+Tkinter
+
+CustomTkinter
+
+Image Processing
+
+Pillow
+
+📁 Project Structure
+text-to-image-generator
+│
+├── imagegenerator.py       # Main application file
+├── requirements.txt        # Project dependencies
+├── README.md               # Project documentation
+└── generated_images        # Folder for storing generated images
+🏁 Getting Started
+
+Follow these steps to run the project locally.
+
+📌 Prerequisites
+
+Make sure you have the following installed:
+
+Python 3.6 or later
+
+GPU (recommended for faster generation)
+
+pip package manager
+
+Required Python libraries:
+
+torch
+
+diffusers
+
+pillow
+
+tkinter
+
+customtkinter
+
+⚙️ Installation
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/text-to-image-generator.git
+cd text-to-image-generator
+2️⃣ Create a Virtual Environment
+python -m venv venv
+
+Activate the virtual environment:
+
+Windows
+
+venv\Scripts\activate
+
+Mac/Linux
+
+source venv/bin/activate
+3️⃣ Install Dependencies
+pip install torch torchvision diffusers pillow customtkinter
+🔑 Hugging Face API Token Setup
+
+This project requires a Hugging Face API Token.
+
+Steps to generate a token:
+
+Go to https://huggingface.co/
+
+Sign in or create an account
+
+Click on your Profile → Settings
+
+Open the Access Tokens tab
+
+Click Generate New Token
+
+Copy the generated token
+
+Add the token inside your code:
+
+self.authorization_token = "YOUR_HUGGINGFACE_TOKEN"
+▶️ Running the Application
+
+Run the following command:
+
+python imagegenerator.py
+💡 Usage
+
+Start the application.
+
+Enter a text prompt describing the image you want.
+
+Click the Generate Image button.
+
+The Stable Diffusion model will generate the image.
+
+The generated image will appear in the GUI window.
+
+Example prompt:
+
+A futuristic city at sunset with flying cars and neon lights
+🤝 Contributing
+
+Contributions are welcome!
+
+Steps to contribute:
+
+Fork this repository
+
+Clone your forked repository
+
+Make the necessary changes
+
+Commit and push your changes
+
+Create a Pull Request
 
 Explore this stunning architectural layout that brings your dream home to life! This image intricately details each room's dimensions and flow, offering a clear vision for a beautifully functional living space
 
