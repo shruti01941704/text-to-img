@@ -1,50 +1,39 @@
-Text2Image is a Python-based application that generates images from text prompts using Stable Diffusion.
-It provides a simple GUI where users can enter a description and the AI model will generate a corresponding image.
+ # Text2Image – AI Powered Image Generator
+
+**ext2Image** is a Python-based application that generates images from text prompts using Stable Diffusion.
+It provides a simple graphical interface where users can enter a description and the AI model generates an image based on the prompt.
 
 This project demonstrates the power of Generative AI and diffusion models to convert natural language descriptions into visual content.
 
-📑 Table of Contents
+ ## 📑 Table of Contents
+ - [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+  - [Available Scripts](#available-scripts)
+- [Contributing](#contributing)
 
-Key Features
 
-Technology Stack
+---
 
-Project Structure
+## 🚀 Key Features
+- **Text-to-Image Generation**: Generate images directly from natural language prompts.
+- 
+- **Stable Diffusion Integration**: Uses the Stable Diffusion model through the Diffusers library to create high-quality images.
 
-Getting Started
+- **Simple GUI Interface**:User-friendly graphical interface built using Tkinter / CustomTkinter.
 
-Prerequisites
+- **Fast Image Generation**:Supports GPU acceleration using PyTorch for faster generation.
 
-Installation
+- **Prompt-Based Control**:Users can generate different styles of images by changing the text prompt.
 
-Running the Application
+- **Real-Time Image Display**:Generated images are displayed instantly inside the application window.
 
-Usage
-
-Contributing
-
-🚀 Key Features
-
-Text-to-Image Generation
-Generate high-quality images from natural language prompts.
-
-Stable Diffusion Integration
-Uses the powerful Stable Diffusion model through the Diffusers library.
-
-Simple GUI Interface
-Built using Tkinter / CustomTkinter for easy user interaction.
-
-Fast Image Generation
-Utilizes PyTorch GPU acceleration when available.
-
-Prompt-Based Control
-Users can customize images by entering different descriptive prompts.
-
-Real-time Image Display
-Generated images are displayed instantly inside the GUI window.
-
-🛠️ Technology Stack
-Programming Language
+## 🛠️ Technology Stack
+### Programming Language
 
 Python
 
@@ -66,28 +55,31 @@ Image Processing
 
 Pillow
 
-📁 Project Structure
+## 📁 Project Structure
+
 text-to-image-generator
 │
-├── imagegenerator.py       # Main application file
-├── requirements.txt        # Project dependencies
-├── README.md               # Project documentation
-└── generated_images        # Folder for storing generated images
-🏁 Getting Started
+├── imagegenerator.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── generated_images
+
+## 🏁 Getting Started
 
 Follow these steps to run the project locally.
 
-📌 Prerequisites
+### 📌 Prerequisites
 
-Make sure you have the following installed:
+Ensure the following are installed:
 
 Python 3.6 or later
 
-GPU (recommended for faster generation)
-
 pip package manager
 
-Required Python libraries:
+GPU (recommended for faster generation)
+
+Required libraries:
 
 torch
 
@@ -100,8 +92,9 @@ tkinter
 customtkinter
 
 ⚙️ Installation
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/text-to-image-generator.git
+1.**Clone the Repository**:
+
+git clone : https://github.com/your-username/text-to-image-generator.git
 cd text-to-image-generator
 2️⃣ Create a Virtual Environment
 python -m venv venv
@@ -112,32 +105,11 @@ Windows
 
 venv\Scripts\activate
 
-Mac/Linux
+Mac / Linux
 
 source venv/bin/activate
 3️⃣ Install Dependencies
 pip install torch torchvision diffusers pillow customtkinter
-🔑 Hugging Face API Token Setup
-
-This project requires a Hugging Face API Token.
-
-Steps to generate a token:
-
-Go to https://huggingface.co/
-
-Sign in or create an account
-
-Click on your Profile → Settings
-
-Open the Access Tokens tab
-
-Click Generate New Token
-
-Copy the generated token
-
-Add the token inside your code:
-
-self.authorization_token = "YOUR_HUGGINGFACE_TOKEN"
 ▶️ Running the Application
 
 Run the following command:
@@ -145,32 +117,33 @@ Run the following command:
 python imagegenerator.py
 💡 Usage
 
-Start the application.
+Run the application.
 
-Enter a text prompt describing the image you want.
+Enter a text prompt describing the image.
 
 Click the Generate Image button.
 
-The Stable Diffusion model will generate the image.
+The Stable Diffusion model generates an image based on the prompt.
 
 The generated image will appear in the GUI window.
 
 Example prompt:
 
-A futuristic city at sunset with flying cars and neon lights
-🤝 Contributing
+A futuristic city with neon lights and flying cars at sunset.
+
+## 🤝 Contributing
 
 Contributions are welcome!
 
 Steps to contribute:
 
-Fork this repository
+Fork the repository
 
-Clone your forked repository
+Clone the forked repository
 
-Make the necessary changes
+Make your changes
 
-Commit and push your changes
+Commit and push the changes
 
 Create a Pull Request
 
